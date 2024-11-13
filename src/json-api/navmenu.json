@@ -1,0 +1,40 @@
+ [
+    {
+      "path" : "/",
+      "menu" : "Home",
+      "textcolor" : "text-warning"
+    },
+  
+    {
+      "path" : "/about",
+      "menu" : "About",
+      "textcolor" : "text-tomato"
+    },
+  
+    {
+      "path" : "/class",
+      "menu" : "Class",
+      "textcolor"  : "text-info"
+    },
+  
+    {
+      "path" : "/teacher",
+      "menu" : "Teacher",
+      "textcolor" : "text-purple"
+    },
+  
+    {
+      "path" : "/blog",
+      "menu" : "Blog",
+      "textcolor" : "text-danger"
+    },
+  
+    {
+      "path" : "/contact",
+      "menu" : "Contact",
+      "textcolor" : "text-secondary"
+    }
+  
+  
+  
+  ]

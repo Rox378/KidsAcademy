@@ -1,0 +1,21 @@
+[
+    {
+      "icon" : "fa fa-home gap-3 border text-warning p-2 ms-0 ",
+      "text" : "  New Chokoya Road USA."
+    },
+  
+    {
+      "icon" : "fa fa-phone gap-3 border text-danger p-2 ms-0 ",
+      "text" : "  +8801 923 970 212, 0125897"
+    },
+    {
+      "icon" : "fa fa-envelope-o text-orange gap-3 border p-2 ms-0 ",
+      "text" : "Contact@adminLabArtisan"
+  
+    },
+  
+    {
+      "icon" : "fa fa-globe gap-3 border text-purple p-2 ms-0 ",
+      "text" : "Contact@adminLabArtisan"
+    }
+  ]

@@ -1,0 +1,19 @@
+[
+    {
+    "icon" : "fa fa-twitter bg-warning text-white p-1 rounded-circle",
+    "text" : "Raritas etiam processus them dynamicus sequitur mutatem education theme",
+    "time" :  "23 seconds ago"
+    },
+
+    {
+        "icon" : "fa fa-twitter bg-tomato text-white p-1 rounded-circle",
+        "text" : "Duis autem veleum iriu dolor hendrerit in vulputate velit",
+        "time"  : "16 seconds ago"
+    },
+
+    {
+        "icon" : "fa fa-twitter bg-orange text-white p-1 rounded-circle",
+        "text" : "@frankdoe amber tempor cum soluta nobis eleifend",
+        "time" :"8 seconds ago"
+    }
+]

@@ -1,0 +1,286 @@
+p {
+  font-size: 16px;
+  color: #707070;
+  line-height: 24px;
+  margin: 0 0 1.75em;
+  text-align: justify;
+
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.fs-36{
+  font-size: 36px;
+}
+.fs-66{
+  font-size: 66px;
+}
+
+.fs-15{
+  font-size: 15px;
+}
+
+.w-33{
+  width: 33.33%;
+}
+
+.lh-20{
+  line-height: 20px;
+}
+
+.btn-purple{
+  background-color: #92278f;
+ 
+}
+
+
+.start-30{
+  left: 35% !important;
+}
+
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.text-purple {
+  color: #92278F !important;
+}
+
+.bg-purple {
+  background-color: purple !important;
+}
+
+.border-warning{
+  border:#ffc000 !important;
+}
+
+.border-orange{
+  border: #fc7f0c !important;
+}
+
+.border-tomato{
+  border: #e84b3a;
+}
+
+.bg-blue{
+  background-color: blue !important;
+}
+
+.text-warning {
+  color: #FFC000;
+}
+
+.text-tomato {
+  color: #E84B3A !important;
+}
+
+.text-pine {
+  color: #FC7F0C;
+}
+
+.ff-bubblegum {
+  font-family: "Bubblegum Sans", sans-serif;
+
+}
+
+.bg-orange {
+  background-color: orange !important;
+}
+
+.bg-tomato {
+  background-color: tomato !important;
+}
+
+
+/*Banner section starts here */
+.banner::before {
+  content: "jhdjkhdsajk";
+  position: absolute;
+  background: url(../public/img/section_notch_top.png);
+  background-repeat: repeat-x;
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 7px;
+  z-index: 2;
+}
+
+.banner::after {
+  content: "lkkladjflkajf";
+  position: absolute;
+  background: url(../public/img/section_notch_bottom.png);
+  background-repeat: repeat-x;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  height: 7px;
+  z-index: 2;
+}
+.notch::before{
+  content: '' ;
+  position: absolute;
+  background: url(../public/img/section_notch_top.png);
+  background-repeat: repeat-x;
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 7px;
+  z-index: 2;
+
+  
+
+
+}
+
+.notch::after{
+  content: "";
+  position: absolute;
+  background: url(../public/img/section_notch_bottom.png);
+  background-repeat: repeat-x;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  height: 7px;
+  z-index: 2;
+}
+/*Banner section ends here */
+
+.carousel-indicators [data-bs-target]{
+
+  width: 12px !important;
+   height: 12px !important;
+   border-radius: 50%;
+}
+
+/* Features section starts */
+
+.features .content-box:hover > i{
+  transform: rotate(360deg);
+}
+/* Features section ends */
+
+
+
+
+/* .carousel-caption {
+  position: absolute;
+  right: none;
+  bottom: none;
+  left: 25% !important;
+  padding-top: none;
+  padding-bottom: none;
+  color: #fff;
+  text-align: center;
+  /* top: auto; */
+/* } 
+
+
+
+
+
+  /* About section starts */
+  .about{
+    background: linear-gradient(rgba(7, 143, 203, .8),rgba(7, 143, 203, .8)),url(../public/img/about-bg.jpg);
+  }
+  /* About section ends */
+
+  @media only screen and (max-width:575px){
+    .fs-22{font-size: 22px;}
+    .fs-32{font-size: 32px;}
+    .banner, .carousel,
+    .carousel img{
+      height: 500px;
+    }
+  }
+
+
+  /* Popular section start */
+  .class-item{
+    background: #fafafa;
+    transition: 0.2 all;
+  }
+  .class-item:hover{
+    background: #fff;
+    transition: 0.2 all;
+    box-shadow: 0px 0px 15px #969393;
+  }
+  /* Popular section end */
+  /* teacher section start */
+
+  .teachers{
+    background: linear-gradient(rgba(71, 171, 35, .8),
+    rgba(71, 171, 35, .8)), url(../public/img/teacher-bg.jpg);
+  }
+
+  .teacher-details .social-media i{
+    color: #fff;
+    margin: 17px 22px 20px 0px;
+    transition: all 0.3s;
+
+  }
+
+  .teacher-details .social-media i:hover{
+    transform: translateY(-3px);
+    transition: all 0.3s;
+  }
+
+  .teacher-details .view{
+    transition: all 0.3s;
+  }
+
+  .teacher-details .view:hover{
+    transform: translateY(-3px);
+    transition: all 0.3s;
+  }
+
+  /* teacher section end */
+  /* Newsletter section start */
+      .newsletter::after{
+        background: none;
+      }
+   /* Newsletter section end */
+
+   /* Testimonial section start */
+   .testimonial::before {
+   
+    font-family: FontAwesome;
+    content: "\f10d";
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    font-size: 22px;
+    background: #fff;
+    color: #ffc000;
+    line-height: 24px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+}
+
+   .testimonial::after{
+   
+    font-family: FontAwesome;
+    content: "\f10e";
+    position: absolute;
+    bottom: -5px;
+    right: -2px;
+    font-size: 22px;
+    background: #fff;
+    color: #ffc000;
+    line-height: 24px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+   
+
+   /* Testimonial section end */
